@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
 
-    <title>Portfolio website complete</title>
+    <title>Rahul Chaudhary - Data Analyst Portfolio</title>
   </head>
   <body>
     <!--===== HEADER =====-->
@@ -34,7 +34,7 @@
               <a href="#skills" class="nav__link">Skills</a>
             </li>
             <li class="nav__item">
-              <a href="#work" class="nav__link">Work</a>
+              <a href="#work" class="nav__link">Projects</a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">Contact</a>
@@ -54,10 +54,10 @@
         <div class="home__data">
           <h1 class="home__title">
             Hi,<br />I'am <span class="home__title-color">Rahul</span><br />
-            Web Designer
+            Data Analyst
           </h1>
 
-          <a href="#" class="button">Contact</a>
+          <a href="#contact" class="button">Contact</a>
         </div>
 
         <div class="home__social">
@@ -109,10 +109,14 @@
           <div>
             <h2 class="about__subtitle">I'am Rahul</h2>
             <p class="about__text">
-              I am a passionate web designer and developer with expertise in
-              creating modern, responsive websites. I enjoy turning creative
-              ideas into functional digital experiences that provide value to
-              users and businesses.
+              I am an aspiring data professional with a solid foundation in
+              Python, SQL, and statistical analysis. Skilled in using Pandas,
+              Matplotlib, and Seaborn for data analysis and visualization.
+              Familiar with C, C++, and Java programming, along with basic
+              knowledge of web technologies. Proficient in MS Office tools for
+              documentation and reporting. Eager to apply programming and
+              analytical skills to solve problems, explore data-driven insights,
+              and grow towards a career in data science and analytics.
             </p>
           </div>
         </div>
@@ -126,48 +130,50 @@
           <div>
             <h2 class="skills__subtitle">Professional Skills</h2>
             <p class="skills__text">
-              I have developed strong technical skills in front-end development
-              and user experience design. My expertise includes creating clean,
-              efficient code and intuitive user interfaces.
+              I have developed strong technical skills in data analysis,
+              programming, and visualization. My expertise includes Python
+              programming, SQL database querying, statistical analysis, and
+              creating insightful data visualizations using modern tools and
+              libraries.
             </p>
             <div class="skills__data">
               <div class="skills__names">
+                <i class="bx bx-code-alt skills__icon"></i>
+                <span class="skills__name">Python/Java/C/C++</span>
+              </div>
+              <div class="skills__bar skills__java"></div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-data skills__icon"></i>
+                <span class="skills__name">SQL</span>
+              </div>
+              <div class="skills__bar skills__sql"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-chart skills__icon"></i>
+                <span class="skills__name">Data Visualization</span>
+              </div>
+              <div class="skills__bar skills__dataviz"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
                 <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">HTML5</span>
+                <span class="skills__name">HTML/CSS/JS</span>
               </div>
-              <div class="skills__bar skills__html"></div>
+              <div class="skills__bar skills__web"></div>
               <div>
-                <span class="skills__percentage">95%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-css3 skills__icon"></i>
-                <span class="skills__name">CSS3</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-              <div>
-                <span class="skills__percentage">65%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxs-paint skills__icon"></i>
-                <span class="skills__name">UX/UI</span>
-              </div>
-              <div class="skills__bar skills__ux"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
+                <span class="skills__percentage">70%</span>
               </div>
             </div>
           </div>
@@ -180,27 +186,65 @@
 
       <!--===== WORK =====-->
       <section class="work section" id="work">
-        <h2 class="section-title">Work</h2>
+        <h2 class="section-title">Projects</h2>
 
         <div class="work__container bd-grid">
-          <a href="" class="work__img">
-            <img src="assets/img/work1.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work2.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work3.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work4.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work5.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work6.jpg" alt="" />
-          </a>
+          <div class="work__project">
+            <img
+              src="assets/img/work1.jpg"
+              alt="COVID-19 Data Analysis"
+              class="work__img"
+            />
+            <div class="work__details">
+              <h3>COVID-19 Data Analysis</h3>
+              <p>
+                Analyzed real-world COVID-19 datasets using Pandas and NumPy.
+                Identified trends in cases, deaths, and vaccinations through
+                comprehensive data processing and statistical analysis.
+              </p>
+              <span class="work__tech"
+                >Python • Pandas • NumPy • Data Analysis</span
+              >
+            </div>
+          </div>
+
+          <div class="work__project">
+            <img
+              src="assets/img/work2.jpg"
+              alt="Student Attendance Tracker"
+              class="work__img"
+            />
+            <div class="work__details">
+              <h3>Student Attendance Tracker</h3>
+              <p>
+                Designed a Java application to mark, store, and retrieve student
+                attendance records. Used OOP principles and file handling for
+                data storage with attendance summary reports.
+              </p>
+              <span class="work__tech"
+                >Java • OOP • File I/O • JDBC • MySQL</span
+              >
+            </div>
+          </div>
+
+          <div class="work__project">
+            <img
+              src="assets/img/work3.jpg"
+              alt="Personal Portfolio Website"
+              class="work__img"
+            />
+            <div class="work__details">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                Designed and developed a responsive personal portfolio website
+                using HTML, CSS, and JavaScript. Showcased projects and skills
+                with modern web design principles.
+              </p>
+              <span class="work__tech"
+                >HTML • CSS • JavaScript • Responsive Design</span
+              >
+            </div>
+          </div>
         </div>
       </section>
 
