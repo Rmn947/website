@@ -224,6 +224,15 @@ img {
   width: 360px;
 }
 
+.home__subtitle-small {
+  display: block;
+  font-size: 60%;
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  color: var(--second-color);
+  font-weight: normal;
+}
+
 /*BUTTONS*/
 .button {
   display: inline-block;
@@ -261,10 +270,78 @@ img {
 }
 .skills__subtitle {
   margin-bottom: var(--mb-2);
+  font-size: 2.52rem;
+  font-weight: var(--font-semi);
 }
 .skills__text {
   margin-bottom: var(--mb-4);
 }
+
+.skills__category {
+  color: var(--first-color);
+  font-size: 1.54rem;
+  margin: 2rem 0 1rem 0;
+  text-align: left;
+  font-weight: var(--font-semi);
+}
+
+.skills__tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+/* Mobile: Center third tile when there are 3 tiles */
+@media screen and (max-width: 576px) {
+  .skills__tiles {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 0.75rem;
+  }
+
+  .skills__tile {
+    width: 140px;
+    max-width: 140px;
+    min-width: 140px;
+  }
+
+  .skills__tile:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
+
+.skills__tile {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 1rem 0.75rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.skills__tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 35px rgba(14, 36, 49, 0.25);
+}
+
+.skills__tile-icon {
+  font-size: 1.8rem;
+  color: var(--first-color);
+  margin-bottom: 0.75rem;
+}
+
+.skills__tile-name {
+  font-weight: var(--font-semi);
+  color: var(--second-color);
+  text-align: center;
+  font-size: 0.85rem;
+}
+
 .skills__data {
   display: flex;
   justify-content: space-between;
@@ -415,7 +492,7 @@ img {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 /* ===== FOOTER =====*/

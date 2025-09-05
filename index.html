@@ -53,8 +53,11 @@
       <section class="home bd-grid" id="home">
         <div class="home__data">
           <h1 class="home__title">
-            Hi,<br />I'am <span class="home__title-color">Rahul</span><br />
-            Data Analyst
+            Hi,<br />I'm <span class="home__title-color">Rahul</span><br />
+            <span class="home__subtitle-small"
+              >A Data Analyst <br />passionate about turning<br />
+              raw data into meaningful <br />stories.</span
+            >
           </h1>
 
           <a href="#contact" class="button">Contact</a>
@@ -107,7 +110,7 @@
           </div>
 
           <div>
-            <h2 class="about__subtitle">I'am Rahul</h2>
+            <h2 class="about__subtitle">I'm Rahul</h2>
             <p class="about__text">
               I am an aspiring data professional with a solid foundation in
               Python, SQL, and statistical analysis. Skilled in using Pandas,
@@ -127,7 +130,7 @@
         <h2 class="section-title">Skills</h2>
 
         <div class="skills__container bd-grid">
-          <div>
+          <div class="skills__content">
             <h2 class="skills__subtitle">Professional Skills</h2>
             <p class="skills__text">
               I have developed strong technical skills in data analysis,
@@ -136,44 +139,52 @@
               creating insightful data visualizations using modern tools and
               libraries.
             </p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bx-code-alt skills__icon"></i>
-                <span class="skills__name">Python/Java/C/C++</span>
+
+            <h3 class="skills__category">Programming Languages</h3>
+            <div class="skills__tiles">
+              <div class="skills__tile">
+                <i class="bx bx-code-curly skills__tile-icon"></i>
+                <span class="skills__tile-name">Python</span>
               </div>
-              <div class="skills__bar skills__java"></div>
-              <div>
-                <span class="skills__percentage">75%</span>
+              <div class="skills__tile">
+                <i class="bx bx-code-alt skills__tile-icon"></i>
+                <span class="skills__tile-name">Java</span>
               </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bx-data skills__icon"></i>
-                <span class="skills__name">SQL</span>
-              </div>
-              <div class="skills__bar skills__sql"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
+              <div class="skills__tile">
+                <i class="bx bx-code-block skills__tile-icon"></i>
+                <span class="skills__tile-name">C/C++</span>
               </div>
             </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bx-chart skills__icon"></i>
-                <span class="skills__name">Data Visualization</span>
+
+            <h3 class="skills__category">Data & Analytics</h3>
+            <div class="skills__tiles">
+              <div class="skills__tile">
+                <i class="bx bx-data skills__tile-icon"></i>
+                <span class="skills__tile-name">SQL</span>
               </div>
-              <div class="skills__bar skills__dataviz"></div>
-              <div>
-                <span class="skills__percentage">80%</span>
+              <div class="skills__tile">
+                <i class="bx bx-chart skills__tile-icon"></i>
+                <span class="skills__tile-name">Data Visualization</span>
+              </div>
+              <div class="skills__tile">
+                <i class="bx bx-line-chart skills__tile-icon"></i>
+                <span class="skills__tile-name">Statistical Analysis</span>
               </div>
             </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">HTML/CSS/JS</span>
+
+            <h3 class="skills__category">Web Technologies</h3>
+            <div class="skills__tiles">
+              <div class="skills__tile">
+                <i class="bx bxl-html5 skills__tile-icon"></i>
+                <span class="skills__tile-name">HTML</span>
               </div>
-              <div class="skills__bar skills__web"></div>
-              <div>
-                <span class="skills__percentage">70%</span>
+              <div class="skills__tile">
+                <i class="bx bxl-css3 skills__tile-icon"></i>
+                <span class="skills__tile-name">CSS</span>
+              </div>
+              <div class="skills__tile">
+                <i class="bx bxl-javascript skills__tile-icon"></i>
+                <span class="skills__tile-name">JavaScript</span>
               </div>
             </div>
           </div>
@@ -196,8 +207,9 @@
               class="work__img"
             />
             <div class="work__details">
-              <h3>COVID-19 Data Analysis</h3>
+              <h3>COVID-19<br /> Data Analysis</h3>
               <p>
+                
                 Analyzed real-world COVID-19 datasets using Pandas and NumPy.
                 Identified trends in cases, deaths, and vaccinations through
                 comprehensive data processing and statistical analysis.
