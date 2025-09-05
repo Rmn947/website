@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-p3",
+  "version": "1.0.0",
+  "description": "Rahul Chaudhary - Data Analyst Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass assets/scss/styles.scss assets/css/styles.css",
+    "sass:watch": "sass --watch assets/scss/styles.scss:assets/css/styles.css",
+    "build": "sass assets/scss/styles.scss assets/css/styles.css --style compressed"
+  },
+  "keywords": ["portfolio", "data-analyst", "scss", "responsive"],
+  "author": "Rahul Chaudhary",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
