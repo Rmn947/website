@@ -4,14 +4,10 @@
   "description": "Rahul Chaudhary - Data Analyst Portfolio",
   "main": "index.html",
   "scripts": {
-    "sass": "sass assets/scss/styles.scss assets/css/styles.css",
-    "sass:watch": "sass --watch assets/scss/styles.scss:assets/css/styles.css",
-    "build": "sass assets/scss/styles.scss assets/css/styles.css --style compressed"
+    "start": "echo 'Portfolio ready for deployment'",
+    "test": "echo 'No tests specified'"
   },
-  "keywords": ["portfolio", "data-analyst", "scss", "responsive"],
+  "keywords": ["portfolio", "data-analyst", "responsive", "css", "javascript"],
   "author": "Rahul Chaudhary",
-  "license": "MIT",
-  "devDependencies": {
-    "sass": "^1.69.0"
-  }
+  "license": "MIT"
 }
