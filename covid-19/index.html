@@ -1,21 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="5; url=https://code19a.streamlit.app/" />
-    <title>Redirecting to COVID-19 Dashboard...</title>
-    <script>
-        let seconds = 5;
-        function countdown() {
-            if(seconds > 0) {
-                document.getElementById('timer').textContent = seconds;
-                seconds--;
-                setTimeout(countdown, 1000);
-            }
-        }
-    </script>
+  <title>COVID-19 App</title>
+  <style>
+    html, body { margin:0; padding:0; height:100%; }
+    iframe { border:none; width:100%; height:100%; }
+  </style>
 </head>
-<body onload="countdown()">
-    <p>Redirecting to <a href="https://code19a.streamlit.app/">COVID-19 Dashboard</a> in <span id="timer">5</span> seconds...</p>
+<body>
+  <iframe src="https://code19a.streamlit.app/"></iframe>
 </body>
 </html>
